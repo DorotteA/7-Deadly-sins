@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  background-image: url('../envy.jpg');
+  height:calc(110vh - 85px);
+  background-repeat:no-repeat;
+    background-attachment: absolute;
+    background-size: 1300px 800px;
+    background-position:center;
+    display:block;
+    margin: 0;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  color: white;
+  font-family: 'Cinzel';
+    font-size: 40px;
+  font-weight: 450;
+  
+}
+  span.menu {
+    margin-top: 25%;
+    margin-left: 42%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 20px;
+    letter-spacing: .35rem;
+  }
+a{
+	  color:white;
+}

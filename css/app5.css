@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  background-image: url('../pride.jpg');
+  height:calc(125vh - 90px);
+  background-repeat:no-repeat;
+    background-attachment: absolute;
+    background-size: 1300px 800px;
+    background-position:center;
+    display:block;
+    margin: 0;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+  font-family: 'Cinzel';
+  
+}
+p.menu {
+    margin-top: 30%;
+    margin-left: 70%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 12px;
+    letter-spacing: .35rem;
+  }
+a{
+	  color:white;
+}
+span {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+  animation: smoky 5s 3s both;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg) 
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@for $item from 1 through 21 {
+  span:nth-of-type(#{$item}){ 
+    animation-delay: #{(3 + ($item/10))}s; 
+  }
+} 

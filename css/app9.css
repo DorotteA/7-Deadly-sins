@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  background-image: url('../sloth.jpg');
+  height:calc(110vh - 85px);
+  width: auto;
+  background-repeat:no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    background-position:center;
+    display:block;
+    margin: 0;
+}
+h1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  color: black;
+  font-family: 'Cinzel';
+  
+}
+  span.menu {
+    margin-top: 30%;
+    margin-left: 70%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 20px;
+    letter-spacing: .35rem;
+  }
+a{
+	  color:black;
+}

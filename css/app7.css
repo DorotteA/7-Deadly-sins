@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  background-image: url('../wrath.jpg');
+  height:calc(125vh - 90px);
+  width: auto;
+  background-repeat:no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    background-position:center;
+    display:block;
+    margin: 0;
+}
+p {
+  position: absolute;
+  top: 17%;
+  left: 55%;
+  color: black;
+  font-family: 'Cinzel';
+  font-size: 40px;
+  font-weight: 600;
+}
+  span.menu {
+    margin-top: 33%;
+    margin-left: 75%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 17px;
+    letter-spacing: .35rem;
+  }
+a{
+	  color:black;
+}
